@@ -68,7 +68,7 @@ module.exports = {
             lightBlue: '#66D9EF',
             lightMagenta: '#AE91FF,
             lightCyan: '#66D9EF',
-            lightWhite: '#F8F8F2',
+            lightWhite: '#F8F8F2'
         },
         //shell to run when spawning a new session
         //if left empty your systmems login shell will  be the default
