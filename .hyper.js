@@ -5,28 +5,41 @@
 module.exports = {
     config: {
         updateChannel: 'stable',
+
         fontSize: 14,
+
         //font family with optional fallbacks
         fontFamily: '"Fira Code", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+
         //normal or bold
         fontWeight: 'normal',
+
         fontWeightBold: 'bold',
+
         //terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
         cursorColor: 'rgba(248,28,229,0.8)',
+
         //terminal text color under block cursor
         cursorAccentColor: '#000',
+
         //Beam for | and UNDERLINE for _ BLOCK for block...
         cursorShape: 'BLOCK',
+
         cursorBlink: false,
+
         //color of the text
         foregroundColor: '#f8f8f2',
+		
         //terminal background color
         //opacity is only supported on macOS
-        backgroundColor: '#273822',
+        backgroundColor: '#272822',
+
         //terminal selection color
-        selectioColor: 'rgba(247,28,229,0.3)',
+        selectioColor: 'rgba(248,28,229,0.3)',
+
         //border color (window, tabs)
         borderColor: '#1df9ca',
+
         //custom CSS to embed in the main window
         //this does not work anymore :(
         css: 'x-screen x-row { font-variant-ligatures: contextual;}',
@@ -64,9 +77,10 @@ module.exports = {
             white: '#F8F8F2',
             lightBlack: '#686868',
             lightRed: '#F2672',
+			lightGreen: '#A6E22E',
             lightYellow: '#FFE792',
             lightBlue: '#66D9EF',
-            lightMagenta: '#AE91FF',
+            lightMagenta: '#AE81FF',
             lightCyan: '#66D9EF',
             lightWhite: '#F8F8F2'
         },
